@@ -1,16 +1,21 @@
-# React + Vite
+# Eneba Search Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a functional clone of the Eneba marketplace search (fuzzy) interface. This project was made as a homework assignment for Eneba internship admission.
 
-Currently, two official plugins are available:
+Website accessible via: https://eneba-search-clone-client.onrender.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Available public APIs:
+- https://eneba-search-clone.onrender.com/list
+- https://eneba-search-clone.onrender.com/list?search=red
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Front-end
+- React Vite + Typescript
+- Tailwind CSS
+- Pictures hosted on Cloudinary.com
 
-## Expanding the ESLint configuration
+### Back-end
+- Node.js & Express
+- Postgres database hosted on Render.com (will be hosted until 2026-01-27)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
