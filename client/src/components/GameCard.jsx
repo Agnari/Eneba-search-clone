@@ -1,11 +1,9 @@
 // src/components/GameCard.jsx
 
 export default function GameCard({ game }) {
-  // Logic for the conditional border
   const hasCashback = game.cashback_value > 0;
   const hasDiscount = game.discount_value && game.discount_value > 0;
 
-  // We define the wrapper here to handle the dynamic border color
   const cardWrapperClasses = `
     bg-eneba-purple-secondary rounded shadow-lg overflow-hidden flex flex-col group cursor-pointer 
     hover:-translate-y-1 transition-all duration-200 border-2

@@ -50,12 +50,11 @@ function App() {
       {/* THREE-COLUMN SYSTEM */}
       <main className={styles.mainLayout}>
         
-        {/* 1. LEFT CONTAINER (Placeholder for ads, filters, or empty space) */}
+        {/* 1. LEFT CONTAINER */}
         <aside className={styles.sideColumn}>
-          {/* Content for left side if needed */}
         </aside>
 
-        {/* 2. CENTER CONTAINER (Your Grid) */}
+        {/* 2. CENTER CONTAINER */}
         <div className={styles.centerContent}>
           <h2 className={styles.resultsHeading}>
             Results found: {games.length}
@@ -74,9 +73,8 @@ function App() {
           )}
         </div>
 
-        {/* 3. RIGHT CONTAINER (Placeholder) */}
+        {/* 3. RIGHT CONTAINER */}
         <aside className={styles.sideColumn}>
-          {/* Content for right side if needed */}
         </aside>
 
       </main>

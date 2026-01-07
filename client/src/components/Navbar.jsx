@@ -13,7 +13,6 @@ export default function Navbar({ search, setSearch }) {
     // SEARCH AREA
     searchBox: "relative flex items-center", 
     searchIcon: "absolute left-3 top-1/2 -translate-y-1/2 w-6 h-6 object-contain pointer-events-none",
-    // Added pr-10 to make room for the clear button
     searchInput: "w-[525px] bg-transparent text-white border-2 border-white rounded-sm py-3 pl-11 pr-10 text-[16px] outline-none focus:border-eneba-green-accent transition-colors placeholder:text-white/40 leading-none",
     
     // CLEAR BUTTON STYLE
