@@ -11,7 +11,8 @@ function App() {
   const fetchGames = async (query = '') => {
     try {
       setLoading(true);
-      const response = await fetch(`http://localhost:3001/list?search=${query}`);
+      // const response = await fetch(`http://localhost:3001/list?search=${query}`);
+      const response = await fetch(`https://eneba-search-clone.onrender.com/list?search=${query}`);
       const data = await response.json();
       setGames(data);
     } catch (error) {
